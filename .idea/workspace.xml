@@ -5,46 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala3_library_3_3_2_0_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_scala_lang_scala_library_2_13_8_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/new_chess-build.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/new_chess.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project/build.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/GameAction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/MovementValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPositionIsEmptyValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/post_movement_validation/DefaultPreMovementValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/post_movement_validation/PreMovementValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/PostMovementValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_data/GameData.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_data/board/Board.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_data/board/Coordinate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_data/movement/Movement.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_data/piece/Piece.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_data/turn/Turn.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/GameInterruption.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/movement_validation/MoveIsInvalid.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/pre_movement_validation/CannotPlayPieceFromDifferentColor.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/pre_movement_validation/FromCoordinateIsInvalid.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/pre_movement_validation/NoPieceInFromCoordinate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/pre_movement_validation/ToCoordinateIsInvalid.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/player/Player.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/player/PlayerCoordinate.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/player/PlayerMovement.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/util/Color.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsDiagonal.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsOneArroundFromCoordinate.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsStraight.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/DiagonalPathIsEmpty.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/board/Coordinate.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/board/Coordinate.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/Coordinate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/Coordinate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/Coordinate.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/Coordinate.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +71,11 @@
       <recent name="$PROJECT_DIR$/src/main/scala/game_action" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="game_action.movement_validation.generic.path" />
       <recent name="game_action.movement_validation.generic" />
+      <recent name="game_action.movement_validation.generic.movement_check" />
+      <recent name="game_action.movement_validation.generic.move_check" />
       <recent name="game_interruption.movement_validation" />
-      <recent name="game_interruption.pre_movement_validator" />
-      <recent name="game" />
-      <recent name="user_input" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
