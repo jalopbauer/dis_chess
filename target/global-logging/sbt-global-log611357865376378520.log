@@ -1,0 +1,122 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.2 (Red Hat, Inc. Java 11.0.17-ea)
+[debug]       Load.loadUnit: plugins took 118.477488ms
+[debug]       Load.loadUnit: defsScala took 0.509002ms
+[debug] [Loading] Scanning directory /home/indigo/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/indigo/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 28.081313 ms
+[debug]           Load.resolveProject(global-plugins) took 71.26759ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/indigo/.sbt/1.0/plugins, plugins: List(<none>))) took 141.080042ms
+[debug] [Loading] Done in /home/indigo/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 172.48279ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.271751ms
+[debug]     Load.loadUnit(file:/home/indigo/.sbt/1.0/plugins/, ...) took 303.516111ms
+[debug]   Load.apply: load took 494.216547ms
+[debug]   Load.apply: resolveProjects took 8.341967ms
+[debug]   Load.apply: finalTransforms took 87.472275ms
+[debug]   Load.apply: config.delegates took 11.216908ms
+[debug]   Load.apply: Def.make(settings)... took 494.968875ms
+[debug]   Load.apply: structureIndex took 121.199757ms
+[debug]   Load.apply: mkStreams took 1.579597ms
+[info] loading global plugins from /home/indigo/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2222.676882ms
+[debug]           Load.loadUnit: plugins took 12.051301ms
+[debug]           Load.loadUnit: defsScala took 0.006286ms
+[debug] [Loading] Scanning directory /home/indigo/proyects/new_chess/project
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/indigo/proyects/new_chess/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.794638 ms
+[debug]               Load.resolveProject(new_chess-build) took 0.884398ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id new_chess-build, base: /home/indigo/proyects/new_chess/project, plugins: List(<none>))) took 3.133214ms
+[debug] [Loading] Done in /home/indigo/proyects/new_chess/project, returning: (new_chess-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 4.609935ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.010616ms
+[debug]         Load.loadUnit(file:/home/indigo/proyects/new_chess/project/, ...) took 17.265223ms
+[debug]       Load.apply: load took 18.270236ms
+[debug]       Load.apply: resolveProjects took 0.130114ms
+[debug]       Load.apply: finalTransforms took 9.041636ms
+[debug]       Load.apply: config.delegates took 0.426869ms
+[debug]       Load.apply: Def.make(settings)... took 63.625572ms
+[debug]       Load.apply: structureIndex took 24.119922ms
+[debug]       Load.apply: mkStreams took 0.005238ms
+[info] loading project definition from /home/indigo/proyects/new_chess/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 242.028098ms
+[debug]     Load.loadUnit: defsScala took 0.013061ms
+[debug] [Loading] Scanning directory /home/indigo/proyects/new_chess
+[debug]       Load.loadUnit: mkEval took 5.940479ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.388373 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 1.909387ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: /home/indigo/proyects/new_chess, plugins: List(<none>))) took 4.152686ms
+[debug] [Loading] Done in /home/indigo/proyects/new_chess, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 125.632784ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.371722ms
+[debug]   Load.loadUnit(file:/home/indigo/proyects/new_chess/, ...) took 371.769078ms
+[debug] Load.apply: load took 373.108073ms
+[debug] Load.apply: resolveProjects took 0.128787ms
+[debug] Load.apply: finalTransforms took 5.440556ms
+[debug] Load.apply: config.delegates took 0.305625ms
+[debug] Load.apply: Def.make(settings)... took 48.279165ms
+[debug] Load.apply: structureIndex took 24.901654ms
+[debug] Load.apply: mkStreams took 0.005308ms
+[info] set current project to new_chess (in build file:/home/indigo/proyects/new_chess/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/indigo/.sbt/1.0/server/9cbea4b6ff0789d56b73/sock
+[debug] Writing bsp connection file
+[info] started sbt server
