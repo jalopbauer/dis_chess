@@ -4,31 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/from_coordinate_condition/YValueFromCoordinateIsExpectedValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsTwoStraightDownValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsTwoStraightUpValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/OneDownIsEmptyValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/OneUpIsEmptyValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnDiagonalMovementValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/DiagonalOrStraightPathIsEmptyValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/DiagonalOrStraightIsEmptyValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/DiagonalPathIsEmptyValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/StraightlPathIsEmptyValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/QueenValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/QueenValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/RookValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/RookValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalOrStraightPathIsEmptyValidator$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalOrStraightPathIsEmptyValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalOrStraightPathIsEmptyValidator.tasty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlPathIsEmptyValidator$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlPathIsEmptyValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlPathIsEmptyValidator.tasty" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/QueenValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/QueenValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/QueenValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/QueenValidator.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/RookValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/RookValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/RookValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/RookValidator.tasty" afterDir="false" />
-    </list>
+    <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,10 +65,10 @@
       <recent name="game_data.piece" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="game_action.movement_validation.generic.movement" />
       <recent name="game_action.movement_validation.generic.from_coordinate_condition" />
       <recent name="game_action.movement_validation.generic.path" />
       <recent name="game_action.movement_validation.generic" />
-      <recent name="game_action.movement_validation.generic.movement" />
       <recent name="game_action.movement_validation.piece.pawn.partial" />
     </key>
   </component>
