@@ -4,7 +4,7 @@ package game_action.movement_validation.generic:
   import game_data.GameData
   import game_interruption.GameInterruption
   import game_interruption.movement_validation.MoveIsInvalid
-  case class ToPositionIsEmptyOrPieceIsDifferentColorValidator() extends OrCompositionValidator(ToPositionIsEmptyValidator()
+  case class ToPositionIsEmptyOrPieceIsDifferentColorValidator() extends OrCompositeValidator(ToPositionIsEmptyValidator()
                                                                                                 , ToPiecePositionIsDifferentColorValidator())
 
 
