@@ -9,7 +9,7 @@ package game_action.movement_validation.generic.path:
   import game_interruption.GameInterruption
   import game_interruption.movement_validation.MoveIsInvalid
 
-  case class DiagonalPathIsEmptyValidator() extends MovementValidator:
+  case class DiagonalIsEmptyValidator() extends MovementValidator:
     val toPositionIsEmptyValidator: ToPositionIsEmptyValidator = ToPositionIsEmptyValidator()
     val movementIsDiagonal: MovementIsDiagonalValidator = MovementIsDiagonalValidator()
     def act(gameData: GameData): Either[GameData, GameInterruption] =
