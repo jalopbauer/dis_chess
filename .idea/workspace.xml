@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsOneDiagonalUpValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnStraightDownTopColorValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnStraightUpBottomColorValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsOneDiagonalValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsOneDiagonalDownValidator.scala" afterDir="false" />
-    </list>
+    <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,8 +61,8 @@
       <recent name="game_data.piece" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="game_action.movement_validation.generic.movement" />
       <recent name="game_action.movement_validation.piece.pawn" />
+      <recent name="game_action.movement_validation.generic.movement" />
       <recent name="game_action.movement_validation.generic.path" />
       <recent name="game_action.movement_validation.piece" />
       <recent name="game_action.movement_validation.generic" />
