@@ -1,3 +1,4 @@
 package player:
-  import util.Color
-  case class Player(color:Color)
+
+  import game_data.piece.PieceColor
+  case class Player(color:PieceColor)
