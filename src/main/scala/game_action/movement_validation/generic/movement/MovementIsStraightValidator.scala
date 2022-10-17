@@ -5,10 +5,10 @@ import game_data.GameData
 import game_interruption.GameInterruption
 import game_interruption.movement_validation.MoveIsInvalid
 
-case class MovementIsDiagonal() extends MovementValidator:
+  case class MovementIsStraightValidator() extends MovementValidator:
     def act(gameData: GameData): Either[GameData, GameInterruption] =
       val vector = gameData.movement.to.vector(gameData.movement.from)
-      if (vector.x.abs == vector.y.abs)
+      if ((vector.x == 0 && vector.y != 0) || (vector.x != 0 && vector.y == 0))
         Left(gameData)
       else
         Right(MoveIsInvalid(gameData))

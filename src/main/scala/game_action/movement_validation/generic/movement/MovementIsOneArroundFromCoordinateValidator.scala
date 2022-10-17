@@ -5,7 +5,7 @@ package game_action.movement_validation.generic.movement:
   import game_interruption.GameInterruption
   import game_interruption.movement_validation.MoveIsInvalid
 
-  case class MovementIsOneArroundFromCoordinate() extends MovementValidator:
+  case class MovementIsOneArroundFromCoordinateValidator() extends MovementValidator:
     def act(gameData: GameData): Either[GameData, GameInterruption] =
       val movement = gameData.movement
       val vector = movement.to.vector(movement.from)

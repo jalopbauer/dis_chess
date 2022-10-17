@@ -2,16 +2,16 @@ package game_action.movement_validation.generic.path:
 
   import game_action.movement_validation.MovementValidator
   import game_action.movement_validation.generic.ToPositionIsEmptyValidator
-  import game_action.movement_validation.generic.movement.MovementIsStraight
+  import game_action.movement_validation.generic.movement.MovementIsStraightValidator
   import game_data.GameData
   import game_data.board.Coordinate
   import game_data.movement.Movement
   import game_interruption.GameInterruption
   import game_interruption.movement_validation.MoveIsInvalid
 
-  case class StraightlPathIsEmpty() extends MovementValidator:
+  case class StraightlPathIsEmptyValidator() extends MovementValidator:
     val toPositionIsEmptyValidator: ToPositionIsEmptyValidator = ToPositionIsEmptyValidator()
-    val movementIsStraight: MovementIsStraight = MovementIsStraight()
+    val movementIsStraight: MovementIsStraightValidator = MovementIsStraightValidator()
     def act(gameData: GameData): Either[GameData, GameInterruption] =
       movementIsStraight.act(gameData) match
         case Left(gameData) =>
