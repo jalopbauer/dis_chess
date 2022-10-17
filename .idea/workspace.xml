@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/OrOrCompositeValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/TwoStraightDownAndOneForwardIsEmptyWithYValueValidator.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/TwoStraightUpAndOneForwardIsEmptyValidator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/TwoStraightUpAndOneForwardIsEmptyValidator$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/TwoStraightUpAndOneForwardIsEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/TwoStraightUpAndOneForwardIsEmptyValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/TwoStraightUpAndOneForwardIsEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/TwoStraightUpAndOneForwardIsEmptyValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
