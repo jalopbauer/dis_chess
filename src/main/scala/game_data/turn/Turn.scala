@@ -1,3 +1,5 @@
 package game_data.turn:
-  
-  case class Turn()
+
+  import game_data.piece.Piece
+
+  case class Turn(eatenPiece:Piece)

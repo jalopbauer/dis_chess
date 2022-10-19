@@ -5,7 +5,146 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/ArroundToCoordinateValidator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__edu_austral_dissis_chess_chess_ui_1_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jetbrains_kotlin_kotlin_script_runtime_1_7_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jetbrains_kotlin_kotlin_stdlib_1_7_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jetbrains_kotlin_kotlin_stdlib_common_1_7_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_7_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_7_10_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_openjfx_javafx_base_18_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_openjfx_javafx_base_18_linux_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_openjfx_javafx_base_18_mac_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_openjfx_javafx_graphics_18_linux_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/sbt__org_openjfx_javafx_graphics_18_mac_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game/Game.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/exposed/RegularBoardMovementValidator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/check/CheckValidator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/KingValidator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/PawnValidator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/post_movement_validation/KingWasEatenValidator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_data/piece/PieceType.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/post_movement_validation/GameEnd.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/post_movement_validation/KingWasEaten.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/new_chess-build.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/new_chess-build.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/new_chess.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/new_chess.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3f6ab62b8200a3b7b3ec$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3f6ab62b8200a3b7b3ec.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$3f6ab62b8200a3b7b3ec.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4ad9cdf10f68ec4abf26$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4ad9cdf10f68ec4abf26.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$4ad9cdf10f68ec4abf26.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$83a1c95625bf95973bb2$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$83a1c95625bf95973bb2.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$83a1c95625bf95973bb2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a385d50e94e662eca86e$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a385d50e94e662eca86e.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/config-classes/$a385d50e94e662eca86e.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/dependencyPositions/_global/streams/update_cache_2.12/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/_global/update/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/copyResources/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/dependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/fullClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/MovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/MovementValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnValidator.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/post_movement_validation/DefaultPreMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/DefaultPreMovementValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/post_movement_validation/PreMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/PreMovementValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/PostMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/post_movement_validation/PostMovementValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/board/Board.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/board/Board.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/piece/Piece.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/piece/Piece.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/piece/PieceColor.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/piece/PieceColor.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/turn/Turn.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/turn/Turn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/MovementValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/MovementValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/MovementValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/MovementValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/AndCompositeValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/AndCompositeValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/AndCompositeValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/AndCompositeValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrCompositeValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrCompositeValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrCompositeValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrCompositeValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrOrCompositeValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrOrCompositeValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrOrCompositeValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrOrCompositeValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsEmptyValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsEmptyValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/color/PieceColorIsExpectedValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/color/PieceColorIsExpectedValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/color/PieceColorIsExpectedValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/color/PieceColorIsExpectedValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/from_coordinate_condition/YValueFromCoordinateIsExpectedValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/from_coordinate_condition/YValueFromCoordinateIsExpectedValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/from_coordinate_condition/YValueFromCoordinateIsExpectedValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/from_coordinate_condition/YValueFromCoordinateIsExpectedValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsLShapedValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsLShapedValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsLShapedValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsLShapedValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneDiagonalDownValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneDiagonalDownValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneDiagonalDownValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneDiagonalDownValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneDiagonalUpValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneDiagonalUpValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneDiagonalUpValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneDiagonalUpValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneStraightDownValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneStraightDownValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneStraightDownValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneStraightDownValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneStraightUpValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneStraightUpValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneStraightUpValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsOneStraightUpValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsStraightValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsStraightValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsStraightValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsStraightValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsTwoStraightDownValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsTwoStraightDownValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsTwoStraightDownValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsTwoStraightDownValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsTwoStraightUpValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsTwoStraightUpValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsTwoStraightUpValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsTwoStraightUpValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/post_movement_validation/DefaultPreMovementValidator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/post_movement_validation/DefaultPreMovementValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/post_movement_validation/DefaultPreMovementValidator.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/post_movement_validation/PreMovementValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/post_movement_validation/PreMovementValidator.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/pre_movement_validation/PostMovementValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/pre_movement_validation/PostMovementValidator.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/Board.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/Board.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/PieceColor$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/PieceColor$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/PieceColor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/PieceColor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/PieceColor.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/PieceColor.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/turn/Turn$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/turn/Turn$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/turn/Turn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/turn/Turn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/turn/Turn.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/turn/Turn.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/main$package$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/main$package.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/main$package.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/main.tasty" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/update/update_cache_3/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/update/update_cache_3/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/update/update_cache_3/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/update/update_cache_3/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/_global/csrLogger/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_3/input_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_3/input_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_3/output_dsp" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/dependencyPositions/_global/streams/update_cache_3/output_dsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/inputs" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/_global/updateClassifiers/_global/streams/update_cache_3/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/_global/streams/export" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/test/managedClasspath/_global/streams/export" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +158,23 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="SBT">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="new_chess" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -46,17 +202,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/indigo/proyects/dis_chess/code/src/main/scala/game_action/movement_validation/generic/movement",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/indigo/proyects/dis_chess/code/src/main/scala/game_action/movement_validation/generic&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic" />
       <recent name="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement" />
       <recent name="$PROJECT_DIR$/src/main/scala/game_interruption" />
       <recent name="$PROJECT_DIR$/src/main/scala/game_action" />
@@ -67,12 +224,26 @@
       <recent name="game_data.piece" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="game_action.post_movement_validation" />
+      <recent name="game_action.movement_validation.piece" />
+      <recent name="game_action.movement_validation.exposed" />
+      <recent name="game_data.piece" />
       <recent name="game_action.movement_validation.generic.movement" />
-      <recent name="game_action.movement_validation.piece.pawn" />
-      <recent name="game_action.movement_validation.generic" />
-      <recent name="game_action.movement_validation.generic.from_coordinate_condition" />
-      <recent name="game_action.movement_validation.generic.path" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="new_chess" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

@@ -5,3 +5,4 @@ package game_data.board:
   trait Board:
     def coordinateBelongs(playerMovement:Coordinate):Option[Coordinate]
     def getPiece(coordinate:Coordinate):Option[Piece]
+    def getPieces:Map[Coordinate,Piece]

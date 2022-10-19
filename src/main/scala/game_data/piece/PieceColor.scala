@@ -1,3 +1,4 @@
 package game_data.piece:
   
-  case class PieceColor()
+  enum PieceColor:
+    case BLACK, WHITE
