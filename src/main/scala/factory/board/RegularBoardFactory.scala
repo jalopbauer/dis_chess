@@ -5,7 +5,6 @@ package factory.board:
 
   case class RegularBoardFactory() extends BoardFactory :
       def createBoard(): RegularBoard =
-        println("Created")
         val pieces = RegularPawnsFactory().createPieces()
           ++ RegularKnightsFactory().createPieces()
           ++ RegularBishopsFactory().createPieces()

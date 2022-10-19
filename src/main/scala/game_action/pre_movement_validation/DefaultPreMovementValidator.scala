@@ -25,6 +25,6 @@ import game_data.GameData
         else
           val optionalPiece = board.getPiece(fromOptional.get)
           if (optionalPiece.isEmpty) Right(NoPieceInFromCoordinate(gameData))
-          else if (optionalPiece.get.color == playerMovement.player.color) Right(CannotPlayPieceFromDifferentColor(gameData))
-          else Left(gameData)
+          else if (optionalPiece.get.color == playerMovement.player.color) Left(gameData)
+          else Right(CannotPlayPieceFromDifferentColor(gameData))
 

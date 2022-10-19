@@ -5,45 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/LineEmptyPositionsFactory.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_data/piece/IdGenerator.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/RegularBoardFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/RegularBoardFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/EmptyPositionsFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/EmptyPositionsFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularSingleColorBishopFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularSingleColorBishopFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularSingleColorKinghtFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularSingleColorKinghtFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularSingleColorRooksFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularSingleColorRooksFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game/Game.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game/Game.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularBishopsFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularBishopsFactory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularKingsFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularKingsFactory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularKnightsFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularKnightsFactory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularPawnsFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularPawnsFactory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularQueensFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularQueensFactory.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularRooksFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularRooksFactory.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/exposed/RegularBoardMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/exposed/RegularBoardMovementValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/PawnValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/PawnValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/post_movement_validation/KingWasEatenValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/post_movement_validation/KingWasEatenValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/board/RegularBoard.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/board/RegularBoard.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/piece/Piece.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/piece/Piece.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_integration/MiPiecesToChessPiece.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_integration/MiPiecesToChessPiece.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/DefaultPreMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/DefaultPreMovementValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/board_piece_map/EmptyPositionsFactory$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/board_piece_map/EmptyPositionsFactory$.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/board_piece_map/EmptyPositionsFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/board_piece_map/EmptyPositionsFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/board_piece_map/EmptyPositionsFactory.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/board_piece_map/EmptyPositionsFactory.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game/Game.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game/Game.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/exposed/RegularBoardMovementValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/exposed/RegularBoardMovementValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/exposed/RegularBoardMovementValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/exposed/RegularBoardMovementValidator.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrOrCompositeValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrOrCompositeValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrOrCompositeValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/OrOrCompositeValidator.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/PawnValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/PawnValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/PawnValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/PawnValidator.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/post_movement_validation/KingWasEatenValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/post_movement_validation/KingWasEatenValidator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/post_movement_validation/KingWasEatenValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/post_movement_validation/KingWasEatenValidator.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/RegularBoard.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/RegularBoard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/RegularBoard.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/board/RegularBoard.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/piece/Piece.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_integration/MiPiecesToChessPiece.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_integration/MiPiecesToChessPiece.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_integration/MiPiecesToChessPiece.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_integration/MiPiecesToChessPiece.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator.tasty" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,5 +157,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/OrOrCompositeValidator.scala</url>
+          <line>10</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="scala-line">
+          <url>file://$PROJECT_DIR$/src/main/scala/game_engine/MyGameEngine.scala</url>
+          <line>28</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
