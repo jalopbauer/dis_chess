@@ -1,5 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game_action/post_movement_validation/KingWasEatenValidator.scala:10:41 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m      [33mif[0m (gameData.turns.last.eatenPiece.pieceType == PieceType.KING) Right(KingWasEaten(gameData))[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        value pieceType is not a member of Option[game_data.piece.Piece][0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: /home/indigo/proyects/dis_chess/code/src/main/scala/app/MyGameApplication.scala:8:53 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m    [33mval[0m [36mgameEngine[0m = [33mnew[0m [35mMyGameEngine[0m(RegularGame(), )[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                     ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                         expression expected but [31m')'[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

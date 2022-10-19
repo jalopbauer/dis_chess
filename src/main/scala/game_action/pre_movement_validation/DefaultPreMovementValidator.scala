@@ -16,14 +16,15 @@ import game_data.GameData
 
       val fromOptional = board.coordinateBelongs(from)
       if (fromOptional.isEmpty) Right(FromCoordinateIsInvalid(gameData))
+      else
+        val value = fromOptional.get
 
-      val to = playerMovement.to
-      val toOptional = board.coordinateBelongs(to)
-      if (toOptional.isEmpty) Right(ToCoordinateIsInvalid(gameData))
-
-      val optionalPiece = board.getPiece(fromOptional.get)
-      if (optionalPiece.isEmpty) Right(NoPieceInFromCoordinate(gameData))
-      if (optionalPiece.get.color == playerMovement.player.color) Right(CannotPlayPieceFromDifferentColor(gameData))
-
-      Left(gameData)
+        val to = playerMovement.to
+        val toOptional = board.coordinateBelongs(to)
+        if (toOptional.isEmpty) Right(ToCoordinateIsInvalid(gameData))
+        else
+          val optionalPiece = board.getPiece(fromOptional.get)
+          if (optionalPiece.isEmpty) Right(NoPieceInFromCoordinate(gameData))
+          else if (optionalPiece.get.color == playerMovement.player.color) Right(CannotPlayPieceFromDifferentColor(gameData))
+          else Left(gameData)
 
