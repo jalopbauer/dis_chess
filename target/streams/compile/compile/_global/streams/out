@@ -1,2 +1,5 @@
-[0m[[0m[0mdebug[0m] [0m[0mAcquiring lock on file /home/indigo/proyects/dis_chess/code/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mReleasing lock on file /home/indigo/proyects/dis_chess/code/project/target/.sbt-compilation-infos/root-compile/.sbt-idea-lock.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game_action/post_movement_validation/KingWasEatenValidator.scala:10:41 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m      [33mif[0m (gameData.turns.last.eatenPiece.pieceType == PieceType.KING) Right(KingWasEaten(gameData))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        value pieceType is not a member of Option[game_data.piece.Piece][0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

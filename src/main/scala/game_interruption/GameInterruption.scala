@@ -4,3 +4,6 @@ package game_interruption:
   
   trait GameInterruption(gameData: GameData):
     def getMessage:String
+
+    def getGameData: GameData =
+      gameData
