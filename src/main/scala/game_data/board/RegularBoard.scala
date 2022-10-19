@@ -7,10 +7,17 @@ package game_data.board:
   case class RegularBoard (pieces:Map[Coordinate, Option[Piece]]) extends Board:
 
     def makeMovement(movement: Movement): (Board, Option[Piece]) =
-      (this,None)
-      
+      val maybeToPiece = pieces(movement.to)
+      val value = pieces(movement.from)
+      (RegularBoard(pieces - movement.to - movement.from + (movement.to -> value)),maybeToPiece)
+
+    private def coordinateInRange(coordinate: Coordinate) : Boolean =
+      inRange(coordinate.x) && inRange(coordinate.y)
+    private def inRange(int: Int) : Boolean =
+      int > 0 || int < 9
+
     def coordinateBelongs(playerMovement: Coordinate): Option[Coordinate] =
-      if(!pieces.contains(playerMovement)) None
+      if(!coordinateInRange(playerMovement)) None
       else Some(playerMovement)
 
     def getPiece(coordinate: Coordinate): Option[Piece] =

@@ -7,5 +7,5 @@ package game_action.movement_validation.generic:
   case class ToPositionIsNotEmptyValidator() extends MovementValidator:
     def act(gameData: GameData): Either[GameData, GameInterruption] =
       val to = gameData.movement.to
-      if(gameData.board.getPiece(to).isDefined) Right(MoveIsInvalid(gameData))
+      if(gameData.board.getPiece(to).isEmpty) Right(MoveIsInvalid(gameData))
       Left(gameData)

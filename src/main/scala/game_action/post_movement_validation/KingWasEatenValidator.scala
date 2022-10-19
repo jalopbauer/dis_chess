@@ -7,7 +7,10 @@ package game_action.post_movement_validation:
 
   case class KingWasEatenValidator() extends PostMovementValidator:
     def act(gameData: GameData): Either[GameData, GameInterruption] =
-      val piece = gameData.turns.last.eatenPiece
-      if (piece.isDefined && piece.get.pieceType == PieceType.KING) Right(KingWasEaten(gameData))
-      Left(gameData)
+//      val turns = gameData.turns
+//      val piece = turns.last.eatenPiece
+//      if (piece.isEmpty) Left(gameData)
+//      else if (piece.isDefined && piece.get.pieceType == PieceType.KING) Right(KingWasEaten(gameData))
+//      else
+        Left(gameData)
 

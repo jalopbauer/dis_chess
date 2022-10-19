@@ -5,6 +5,5 @@ package factory.board.board_piece_map:
 
   case class RegularSingleColorKinghtFactory(xPos: Int, pieceColor: PieceColor) extends BoardPieceMapFactory:
     def createPieces(): Map[Coordinate, Option[Piece]] =
-      val horse = Some(Piece(pieceColor, PieceType.KNIGHT))
-      Map(Coordinate(2, xPos) -> horse, Coordinate(7, xPos) -> horse)
+      Map(Coordinate(2, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)), Coordinate(7, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)))
       

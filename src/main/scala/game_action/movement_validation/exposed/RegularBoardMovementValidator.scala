@@ -14,7 +14,7 @@ package game_action.movement_validation.exposed:
     val knightValidator: MovementValidator = KnightValidator()
     val queenValidator: MovementValidator = QueenValidator()
     val rookValidator: MovementValidator = RookValidator()
-    val pawnValidator: MovementValidator = PawnValidator(PieceColor.WHITE,PieceColor.BLACK)
+    val pawnValidator: MovementValidator = PawnValidator(PieceColor.BLACK, PieceColor.WHITE)
     val kingValidator: MovementValidator = KingValidator()
     def act(gameData: GameData): Either[GameData, GameInterruption] =
       val maybePiece = gameData.board.getPiece(gameData.movement.from)

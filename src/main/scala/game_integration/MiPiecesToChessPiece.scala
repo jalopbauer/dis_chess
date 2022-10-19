@@ -10,14 +10,10 @@ case class MiPiecesToChessPiece():
   val myCoordinateToPosition: MyCoordinateToPosition = MyCoordinateToPosition()
   def transform(myPieces: Map[Coordinate,Piece]):java.util.List[ChessPiece] = {
     val pieces = myPieces
-    println(pieces.toList)
-    var id = 0
-    val java = pieces.map(coordinatePiece => {
-      id += 1
+    pieces.map(coordinatePiece => {
       val piece = coordinatePiece._2
       val coordinate = coordinatePiece._1
+      val id = piece.id
       new ChessPiece(s"$id", myPieceColorToPlayerColor.transform(piece.color), myCoordinateToPosition.transform(coordinate), piece.pieceType.toString.toLowerCase())
     }).toList.asJava
-    println(java)
-    java
   }

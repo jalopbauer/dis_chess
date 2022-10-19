@@ -13,7 +13,7 @@ package game:
         case Right(x) => Right(x)
         case Left(value) => movementValidator.act(value) match
           case Right(x) => Right(x)
-          case Left(value) => postMovementValidator.act(value)
+          case Left(value) => postMovementValidator.act(GameData(value.board,value.movement,value.turns))
     }
 
 
