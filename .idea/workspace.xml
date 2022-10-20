@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_action/post_movement_validation/CrownPawn.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game/Game.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game/Game.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game/RegularGame.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game/RegularGame.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/board/Board.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/board/Board.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/board/RegularBoard.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/board/RegularBoard.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/piece/Piece.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/piece/Piece.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,11 +91,11 @@
       <recent name="game_data.piece" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="game_action.post_movement_validation" />
       <recent name="game_action.movement_validation.exposed" />
       <recent name="game_interruption.movement_validation" />
       <recent name="game_interruption.pre_movement_validation" />
       <recent name="factory.board.board_piece_map" />
-      <recent name="game_integration" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">

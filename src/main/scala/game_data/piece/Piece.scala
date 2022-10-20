@@ -1,3 +1,4 @@
 package game_data.piece:
-  case class Piece(color: PieceColor, pieceType: PieceType):
-    val id: Int = IdGenerator.getId()
+  case class Piece(id: Int, color: PieceColor, pieceType: PieceType):
+    def this(color: PieceColor, pieceType: PieceType) = this(IdGenerator.getId(), color,pieceType)
+

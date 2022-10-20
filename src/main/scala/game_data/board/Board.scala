@@ -8,3 +8,5 @@ package game_data.board:
     def coordinateBelongs(playerMovement:Coordinate):Option[Coordinate]
     def getPiece(coordinate:Coordinate):Option[Piece]
     def getPieces:Map[Coordinate,Piece]
+    
+    def putPieceInCoordinate(coordinate:Coordinate, piece: Piece): Board

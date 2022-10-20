@@ -9,8 +9,8 @@ package game_data.board:
     def makeMovement(movement: Movement): (Board, Option[Piece]) =
       val maybeToPiece = pieces(movement.to)
       val value = pieces(movement.from)
-      val value1 = pieces - movement.to - movement.from + (movement.to -> value) + (movement.from -> None)
-      (RegularBoard(value1),maybeToPiece)
+      val newPieces = pieces - movement.to - movement.from + (movement.to -> value) + (movement.from -> None)
+      (RegularBoard(newPieces),maybeToPiece)
 
     private def coordinateInRange(coordinate: Coordinate) : Boolean =
       inRange(coordinate.x) && inRange(coordinate.y)
@@ -26,3 +26,7 @@ package game_data.board:
 
     def getPieces: Map[Coordinate, Piece] =
       pieces.filter(x => x._2.isDefined).map(x => (x._1 , x._2.get))
+
+    def putPieceInCoordinate(coordinate:Coordinate, piece: Piece): Board =
+      val newPieces = pieces - coordinate + (coordinate -> Some(piece))
+      RegularBoard(newPieces)

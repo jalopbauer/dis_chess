@@ -11,9 +11,13 @@ package game:
       val preMovementDataOrInterruption = preMovementValidator.act(gameData)
       preMovementDataOrInterruption match
         case Right(x) => Right(x)
-        case Left(value) => movementValidator.act(value) match
+        case Left(value) =>
+          val dataOrInterruption = movementValidator.act(value)
+          dataOrInterruption match
           case Right(x) => Right(x)
-          case Left(value) => postMovementValidator.act(GameData(value.board,value.movement,value.turns))
+          case Left(value) =>
+            println(value.board)
+            postMovementValidator.act(GameData(value.board,value.movement,value.turns))
     }
 
 
