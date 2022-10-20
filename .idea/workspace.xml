@@ -5,23 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/pre_movement_validation/ToDifferentFrom.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/RegularBoardFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/RegularBoardFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularBishopsFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularBishopsFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularKingsFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularKingsFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularKnightsFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularKnightsFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularPawnsFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularPawnsFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularQueensFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularQueensFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularRooksFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/board_piece_map/RegularRooksFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/exposed/RegularBoardMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/exposed/RegularBoardMovementValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/PawnValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/PawnValidator.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/DefaultPreMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/DefaultPreMovementValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/main.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.tasty" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator.tasty" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,11 +89,11 @@
       <recent name="game_data.piece" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="game_interruption.pre_movement_validation" />
       <recent name="factory.board.board_piece_map" />
       <recent name="game_integration" />
       <recent name="game_action.post_movement_validation" />
       <recent name="game_action.movement_validation.piece" />
-      <recent name="game_action.movement_validation.exposed" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">

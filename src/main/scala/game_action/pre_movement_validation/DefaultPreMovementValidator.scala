@@ -4,7 +4,7 @@ import game_data.GameData
   import game_data.board.Board
   import game_data.movement.Movement
   import game_interruption.GameInterruption
-  import game_interruption.pre_movement_validation.{CannotPlayPieceFromDifferentColor, FromCoordinateIsInvalid, NoPieceInFromCoordinate, ToCoordinateIsInvalid}
+  import game_interruption.pre_movement_validation.{CannotPlayPieceFromDifferentColor, FromCoordinateIsInvalid, NoPieceInFromCoordinate, ToCoordinateIsInvalid, ToDifferentFrom}
 
 
   case class DefaultPreMovementValidator() extends PreMovementValidator:
@@ -24,7 +24,8 @@ import game_data.GameData
         if (toOptional.isEmpty) Right(ToCoordinateIsInvalid(gameData))
         else
           val optionalPiece = board.getPiece(fromOptional.get)
-          if (optionalPiece.isEmpty) Right(NoPieceInFromCoordinate(gameData))
+          if (to == from) Right(ToDifferentFrom(gameData))
+          else if (optionalPiece.isEmpty) Right(NoPieceInFromCoordinate(gameData))
           else if (optionalPiece.get.color == playerMovement.player.color) Left(gameData)
           else Right(CannotPlayPieceFromDifferentColor(gameData))
 
