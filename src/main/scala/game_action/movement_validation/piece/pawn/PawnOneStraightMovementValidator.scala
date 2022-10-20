@@ -1,8 +1,6 @@
 package game_action.movement_validation.piece.pawn
 
 import game_action.movement_validation.MovementValidator
-import game_action.movement_validation.generic.movement.{MovementIsDiagonalDownTopColorValidator, MovementIsDiagonalUpBottomColorValidator, MovementIsDiagonalValidator, MovementIsOneDiagonalUpValidator, MovementIsStraightDownTopColorValidator, MovementIsStraightUpBottomColorValidator, OneStraightRespectingColorValidator}
-import game_action.movement_validation.generic.{AndCompositeValidator, OrCompositeValidator, ToPositionIsEmptyOrPieceIsDifferentColorValidator, ToPositionIsEmptyValidator}
 import game_data.GameData
 import game_data.board.Coordinate
 import game_data.piece.PieceColor

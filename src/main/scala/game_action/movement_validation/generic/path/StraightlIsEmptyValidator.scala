@@ -18,9 +18,9 @@ package game_action.movement_validation.generic.path:
           val movement = gameData.movement
           val to = movement.to
           val from = movement.from
-          val vector = to.vector(from)
+          val vector = movement.vector()
           val maxValsAndFunctio = if (to.x == 0) (vector.y,(i: Int) => Coordinate(to.x, to.y + i))
           else (vector.x, (i: Int) => Coordinate(to.x + i, to.y))
-          if ((1 to maxValsAndFunctio._1).forall(i => toPositionIsEmptyValidator.act(GameData(gameData.board, Movement(from, maxValsAndFunctio._2(i), movement.player), gameData.turns)).isRight)) Left(gameData)
+          if ((1 to maxValsAndFunctio._1).forall(i => toPositionIsEmptyValidator.act(GameData(gameData.board, Movement(from, maxValsAndFunctio._2(i), movement.player), gameData.turns)).isLeft)) Left(gameData)
           else Right(PathIsNotEmpty(gameData))
         case Right(moveIsInvalid) => Right(moveIsInvalid)

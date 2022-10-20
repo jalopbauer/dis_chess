@@ -1,9 +1,0 @@
-package game_action.movement_validation.generic.movement:
-
-  import game_action.movement_validation.generic.AndCompositeValidator
-  import game_action.movement_validation.generic.AndCompositeValidator
-  import game_action.movement_validation.generic.from_coordinate_condition.YValueFromCoordinateIsExpectedValidator
-  import game_action.movement_validation.generic.movement.TwoStraightUpAndOneForwardIsEmptyValidator
-  import game_action.movement_validation.generic.path.OneUpIsEmptyValidator
-
-  case class TwoStraightUpAndOneForwardIsEmptyWithYValueValidator(yValue: Int) extends AndCompositeValidator(TwoStraightUpAndOneForwardIsEmptyValidator(), YValueFromCoordinateIsExpectedValidator(yValue))
