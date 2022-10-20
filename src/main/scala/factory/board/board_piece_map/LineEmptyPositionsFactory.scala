@@ -5,4 +5,4 @@ package factory.board.board_piece_map:
 
   case class LineEmptyPositionsFactory(yPos:Int):
     def createPieces(): Map[Coordinate, Option[Piece]] =
-      (1 to 9).map(x => {Coordinate(x, yPos)}).map(k => k -> None).toMap
+      (0 to 9).map(x => {Coordinate(x, yPos)}).map(k => k -> None).toMap
