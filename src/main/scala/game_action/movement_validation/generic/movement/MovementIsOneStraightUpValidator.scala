@@ -9,7 +9,7 @@ case class MovementIsOneStraightUpValidator() extends MovementValidator:
   def act(gameData: GameData): Either[GameData, GameInterruption] =
     val movement = gameData.movement
     val vector = movement.to.vector(movement.from)
-    if (vector.x == 0 && vector.y == 1)
+    if (vector.x == 0 && vector.y == -1)
       Left(gameData)
     else
       Right(IsNotOneStraightUp(gameData))
