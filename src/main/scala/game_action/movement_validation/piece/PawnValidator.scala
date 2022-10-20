@@ -5,6 +5,6 @@ package game_action.movement_validation.piece:
   import game_data.piece.PieceColor
   
   case class PawnValidator(bottomColor: PieceColor, topColor: PieceColor)
-    extends OrOrCompositeValidator( PawnOneStraightMovementValidator(bottomColor: PieceColor, topColor: PieceColor)
+    extends OrOrCompositeValidator(PawnOneStraightMovementValidator()
       , PawnTwoStraightMovementValidator(),
-      PawnDiagonalMovementValidator(bottomColor: PieceColor, topColor: PieceColor))
+      PawnDiagonalMovementValidator())

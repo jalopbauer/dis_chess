@@ -5,9 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/MoveIsInvalid.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsOneStraightDownValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsOneStraightDownValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" beforeDir="false" afterPath="$PROJECT_DIR$/project/target/scala-2.12/sbt-1.0/update/update_cache_2.12/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/PawnValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/PawnValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/piece/pawn/PawnTwoStraightMovementValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_data/movement/Movement.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_data/movement/Movement.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator$.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/movement/Movement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/movement/Movement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/movement/Movement.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_data/movement/Movement.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compile/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/_global/streams/out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" beforeDir="false" afterPath="$PROJECT_DIR$/target/streams/compile/incOptions/_global/streams/out" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
