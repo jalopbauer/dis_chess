@@ -1,8 +1,155 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game_action/movement_validation/piece/pawn/PawnOneStraightMovementValidator.scala:20:31 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m20 |[0m      [33melse[0m Right(MoveIsInvalid([31m"Movement is not one straight"[0m))[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     Found:    ([32m"Movement is not one straight"[0m : String)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                     Required: game_data.GameData[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularKingsFactory.scala:9:53 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m        Map(Coordinate([31m5[0m,[31m8[0m) -> Some(Piece(PieceColor.WHITE, pieceType)), Coordinate([31m5[0m,[31m1[0m) -> Some(Piece(PieceColor.BLACK, pieceType)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                          ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Found:    (game_data.piece.PieceColor.WHITE : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularKingsFactory.scala:9:60 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m        Map(Coordinate([31m5[0m,[31m8[0m) -> Some(Piece(PieceColor.WHITE, pieceType)), Coordinate([31m5[0m,[31m1[0m) -> Some(Piece(PieceColor.BLACK, pieceType)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                            ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Found:    (pieceType : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularKingsFactory.scala:9:114 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m        Map(Coordinate([31m5[0m,[31m8[0m) -> Some(Piece(PieceColor.WHITE, pieceType)), Coordinate([31m5[0m,[31m1[0m) -> Some(Piece(PieceColor.BLACK, pieceType)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                       ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Found:    (game_data.piece.PieceColor.BLACK : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularKingsFactory.scala:9:121 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m        Map(Coordinate([31m5[0m,[31m8[0m) -> Some(Piece(PieceColor.WHITE, pieceType)), Coordinate([31m5[0m,[31m1[0m) -> Some(Piece(PieceColor.BLACK, pieceType)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                                         ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Found:    (pieceType : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularQueensFactory.scala:9:51 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m      Map(Coordinate([31m4[0m,[31m8[0m) -> Some(Piece(PieceColor.WHITE, pieceType)), Coordinate([31m4[0m,[31m1[0m) -> Some(Piece(PieceColor.BLACK, pieceType)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                        ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Found:    (game_data.piece.PieceColor.WHITE : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularQueensFactory.scala:9:58 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m      Map(Coordinate([31m4[0m,[31m8[0m) -> Some(Piece(PieceColor.WHITE, pieceType)), Coordinate([31m4[0m,[31m1[0m) -> Some(Piece(PieceColor.BLACK, pieceType)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                          ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Found:    (pieceType : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularQueensFactory.scala:9:112 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m      Map(Coordinate([31m4[0m,[31m8[0m) -> Some(Piece(PieceColor.WHITE, pieceType)), Coordinate([31m4[0m,[31m1[0m) -> Some(Piece(PieceColor.BLACK, pieceType)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                     ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Found:    (game_data.piece.PieceColor.BLACK : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m Required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularQueensFactory.scala:9:119 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m      Map(Coordinate([31m4[0m,[31m8[0m) -> Some(Piece(PieceColor.WHITE, pieceType)), Coordinate([31m4[0m,[31m1[0m) -> Some(Piece(PieceColor.BLACK, pieceType)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                                       ^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Found:    (pieceType : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                         Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorBishopFactory.scala:8:44 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      Map(Coordinate([31m3[0m, yPos) -> Some(Piece(pieceColor, PieceType.BISHOP)), Coordinate([31m6[0m,yPos) -> Some(Piece(pieceColor, PieceType.BISHOP)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                            ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mFound:    (RegularSingleColorBishopFactory.this.pieceColor : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mRequired: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorBishopFactory.scala:8:66 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      Map(Coordinate([31m3[0m, yPos) -> Some(Piece(pieceColor, PieceType.BISHOP)), Coordinate([31m6[0m,yPos) -> Some(Piece(pieceColor, PieceType.BISHOP)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                        ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Found:    (game_data.piece.PieceType.BISHOP : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorBishopFactory.scala:8:109 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      Map(Coordinate([31m3[0m, yPos) -> Some(Piece(pieceColor, PieceType.BISHOP)), Coordinate([31m6[0m,yPos) -> Some(Piece(pieceColor, PieceType.BISHOP)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                             ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mFound:    (RegularSingleColorBishopFactory.this.pieceColor : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mRequired: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorBishopFactory.scala:8:131 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      Map(Coordinate([31m3[0m, yPos) -> Some(Piece(pieceColor, PieceType.BISHOP)), Coordinate([31m6[0m,yPos) -> Some(Piece(pieceColor, PieceType.BISHOP)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                                         ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Found:    (game_data.piece.PieceType.BISHOP : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorKinghtFactory.scala:8:44 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      Map(Coordinate([31m2[0m, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)), Coordinate([31m7[0m, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                            ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mFound:    (RegularSingleColorKinghtFactory.this.pieceColor : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mRequired: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorKinghtFactory.scala:8:66 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      Map(Coordinate([31m2[0m, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)), Coordinate([31m7[0m, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                        ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Found:    (game_data.piece.PieceType.KNIGHT : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorKinghtFactory.scala:8:110 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      Map(Coordinate([31m2[0m, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)), Coordinate([31m7[0m, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                              ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mFound:    (RegularSingleColorKinghtFactory.this.pieceColor : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mRequired: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorKinghtFactory.scala:8:132 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      Map(Coordinate([31m2[0m, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)), Coordinate([31m7[0m, xPos) -> Some(Piece(pieceColor, PieceType.KNIGHT)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                                          ^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Found:    (game_data.piece.PieceType.KNIGHT : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m  Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorRooksFactory.scala:8:45 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m        Map(Coordinate([31m1[0m,yPos) -> Some(Piece(pieceColor, PieceType.ROOK)), Coordinate([31m8[0m, yPos) -> Some(Piece(pieceColor, PieceType.ROOK)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                             ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mFound:    (RegularSingleColorRooksFactory.this.pieceColor : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mRequired: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorRooksFactory.scala:8:67 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m        Map(Coordinate([31m1[0m,yPos) -> Some(Piece(pieceColor, PieceType.ROOK)), Coordinate([31m8[0m, yPos) -> Some(Piece(pieceColor, PieceType.ROOK)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                         ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m    Found:    (game_data.piece.PieceType.ROOK : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m    Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorRooksFactory.scala:8:109 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m        Map(Coordinate([31m1[0m,yPos) -> Some(Piece(pieceColor, PieceType.ROOK)), Coordinate([31m8[0m, yPos) -> Some(Piece(pieceColor, PieceType.ROOK)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                             ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mFound:    (RegularSingleColorRooksFactory.this.pieceColor : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mRequired: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/RegularSingleColorRooksFactory.scala:8:131 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m        Map(Coordinate([31m1[0m,yPos) -> Some(Piece(pieceColor, PieceType.ROOK)), Coordinate([31m8[0m, yPos) -> Some(Piece(pieceColor, PieceType.ROOK)))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                                         ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m    Found:    (game_data.piece.PieceType.ROOK : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m    Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/YcoordPawnsFactory.scala:8:85 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      ([31m1[0m to yCoordMaxValue).map([36my[0m => {Coordinate(y, xPos)}).map([36mk[0m => k -> Some(Piece(pieceColor, PieceType.PAWN))).toMap[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                     ^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mFound:    (YcoordPawnsFactory.this.pieceColor : game_data.piece.PieceColor)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0mRequired: Int[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/factory/board/board_piece_map/YcoordPawnsFactory.scala:8:107 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m8 |[0m      ([31m1[0m to yCoordMaxValue).map([36my[0m => {Coordinate(y, xPos)}).map([36mk[0m => k -> Some(Piece(pieceColor, PieceType.PAWN))).toMap[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                                                                                 ^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m    Found:    (game_data.piece.PieceType.PAWN : game_data.piece.PieceType)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m    Required: game_data.piece.PieceColor[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m22 errors found[0m

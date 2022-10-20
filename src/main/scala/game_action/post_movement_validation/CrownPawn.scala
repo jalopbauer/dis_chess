@@ -13,7 +13,7 @@ import game_interruption.post_movement_validation.KingWasEaten
       val board = gameData.board
       val piece = board.getPiece(from).get
       if ((to.y == 8 || to.y == 1) && piece.pieceType == PieceType.PAWN)
-        val newBoard = board.putPieceInCoordinate(from, Piece(piece.id, piece.color,PieceType.QUEEN))
+        val newBoard = board.putPieceInCoordinate(from, Piece(piece.color,PieceType.QUEEN, piece.id))
         Left(GameData(newBoard,movement,gameData.turns))
       else Left(gameData)
 
