@@ -1,11 +1,19 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game_action/movement_validation/generic/OrOrCompositeValidator.scala:18:41 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m18 |[0m          [33melse[0m Right(OrOrValidationNotMet(gameData))[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0mmissing argument for parameter leftGameInterruption of [33mmethod[0m [35mapply[0m in [33mobject[0m [35mOrOrValidationNotMet[0m: (gameData: game_data.GameData, leftGameInterruption: [0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Either[game_data.GameData, game_interruption.GameInterruption][0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m, middleGameInterruption: [0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Either[game_data.GameData, game_interruption.GameInterruption][0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m, rightGameInterruption: [0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m  Either[game_data.GameData, game_interruption.GameInterruption][0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m): game_interruption.movement_validation.OrOrValidationNotMet[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game_action/movement_validation/generic/OrCompositeValidator.scala:15:48 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m        [33melse[0m Right(OrValidationNotMet(gameData, leftDataOrInterruption, rightDataOrInterruption))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                ^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Found:    [1m[31m([0m[1m[31mleftDataOrInterruption[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        [1m[31m [0m[1m[31m [0m[1m[31mEither[0m[1m[31m[[0mgame_[1m[31mdata[0m[1m[31m.[0m[1m[31mGameData[0m[1m[31m,[0m[1m[31m [0m[1m[31mgame[0m[1m[31m_[0minterruption.GameInterruption[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        [1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Required: game_interruption.GameInterruption[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game_action/movement_validation/generic/OrCompositeValidator.scala:15:72 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m15 |[0m        [33melse[0m Right(OrValidationNotMet(gameData, leftDataOrInterruption, rightDataOrInterruption))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                        ^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Found:    [1m[31m([0m[1m[31mrightDataOrInterruption[0m[1m[31m [0m[1m[31m:[0m[1m[31m [0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        [1m[31m [0m[1m[31m [0m[1m[31mEither[0m[1m[31m[[0mgame_[1m[31mdata[0m[1m[31m.[0m[1m[31mGameData[0m[1m[31m,[0m[1m[31m [0m[1m[31mgame[0m[1m[31m_[0minterruption.GameInterruption[1m[31m][0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        [1m[31m)[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m        Required: game_interruption.GameInterruption[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
