@@ -5,7 +5,6 @@ package game_action.movement_validation.exposed:
   import game_data.GameData
   import game_data.piece.{PieceColor, PieceType}
   import game_interruption.GameInterruption
-  import game_interruption.movement_validation.MoveIsInvalid
 
   import scala.util.Right
   
@@ -17,10 +16,7 @@ package game_action.movement_validation.exposed:
     val pawnValidator: MovementValidator = PawnValidator(PieceColor.WHITE, PieceColor.BLACK)
     val kingValidator: MovementValidator = KingValidator()
     def act(gameData: GameData): Either[GameData, GameInterruption] =
-      val maybePiece = gameData.board.getPiece(gameData.movement.from)
-      if(maybePiece.isEmpty) Right(MoveIsInvalid(gameData))
-      else
-        maybePiece.get.pieceType match
+      gameData.board.getPiece(gameData.movement.from).get.pieceType match
           case PieceType.BISHOP => bishopValidator.act(gameData)
           case PieceType.KNIGHT => knightValidator.act(gameData)
           case PieceType.QUEEN => queenValidator.act(gameData)

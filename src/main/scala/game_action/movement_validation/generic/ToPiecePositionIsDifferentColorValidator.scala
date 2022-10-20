@@ -3,7 +3,7 @@ package game_action.movement_validation.generic:
   import game_action.movement_validation.MovementValidator
   import game_data.GameData
   import game_interruption.GameInterruption
-  import game_interruption.movement_validation.MoveIsInvalid
+  import game_interruption.movement_validation.ToPositionPieceIsSameColor
 
   case class ToPiecePositionIsDifferentColorValidator() extends MovementValidator:
     val toPositionIsNotEmptyValidator: ToPositionIsNotEmptyValidator = ToPositionIsNotEmptyValidator()
@@ -13,7 +13,7 @@ package game_action.movement_validation.generic:
           if (gameData.board.getPiece(gameData.movement.to).get.color != gameData.board.getPiece(gameData.movement.from).get.color)
             Left(gameData)
           else
-            Right(MoveIsInvalid(gameData))
+            Right(ToPositionPieceIsSameColor(gameData))
         case Right(moveIsInvalid) => Right(moveIsInvalid)
 
 

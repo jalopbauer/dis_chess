@@ -6,7 +6,6 @@ package game_action.movement_validation.generic.path:
   import game_data.board.Coordinate
   import game_data.movement.Movement
   import game_interruption.GameInterruption
-  import game_interruption.movement_validation.MoveIsInvalid
 
   case class OneUpIsEmptyValidator() extends MovementValidator:
     val toPositionIsEmptyValidator: ToPositionIsEmptyValidator = ToPositionIsEmptyValidator()
