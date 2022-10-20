@@ -3,7 +3,7 @@ package game_action.movement_validation.generic.movement
 import game_action.movement_validation.MovementValidator
 import game_data.GameData
 import game_interruption.GameInterruption
-import game_interruption.movement_validation.MoveIsInvalid
+import game_interruption.movement_validation.{MoveIsInvalid, MovementIsNotDiagonal}
 
 case class MovementIsDiagonalValidator() extends MovementValidator:
     def act(gameData: GameData): Either[GameData, GameInterruption] =
@@ -11,7 +11,7 @@ case class MovementIsDiagonalValidator() extends MovementValidator:
       if (vector.x.abs == vector.y.abs)
         Left(gameData)
       else
-        Right(MoveIsInvalid(gameData))
+        Right(MovementIsNotDiagonal(gameData))
 
 
 

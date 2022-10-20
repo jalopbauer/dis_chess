@@ -3,7 +3,7 @@ package game_action.movement_validation.generic.movement
 import game_action.movement_validation.MovementValidator
 import game_data.GameData
 import game_interruption.GameInterruption
-import game_interruption.movement_validation.MoveIsInvalid
+import game_interruption.movement_validation.{MoveIsInvalid, MovementIsNotStraight}
 
   case class MovementIsStraightValidator() extends MovementValidator:
     def act(gameData: GameData): Either[GameData, GameInterruption] =
@@ -11,7 +11,7 @@ import game_interruption.movement_validation.MoveIsInvalid
       if ((vector.x == 0 && vector.y != 0) || (vector.x != 0 && vector.y == 0))
         Left(gameData)
       else
-        Right(MoveIsInvalid(gameData))
+        Right(MovementIsNotStraight(gameData))
 
 
 

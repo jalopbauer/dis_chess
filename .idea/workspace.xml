@@ -5,11 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="910041c0-5520-41ba-866a-ed1e7eef2240" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/pre_movement_validation/ToDifferentFrom.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/factory/board/RegularBoardFactory.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/factory/board/RegularBoardFactory.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/DefaultPreMovementValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/pre_movement_validation/DefaultPreMovementValidator.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/factory/board/RegularBoardFactory.tasty" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/movement_validation/MovementIsNotDiagonal.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/movement_validation/MovementIsNotStraight.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/movement_validation/PathIsNotEmpty.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/game_interruption/movement_validation/ToPositionIsEmpty.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsStraightValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/movement/MovementIsStraightValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPiecePositionIsDifferentColorValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/ToPositionIsNotEmptyValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/movement/MovementIsDiagonalValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.tasty" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/pre_movement_validation/DefaultPreMovementValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/pre_movement_validation/DefaultPreMovementValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/pre_movement_validation/DefaultPreMovementValidator.tasty" beforeDir="false" afterPath="$PROJECT_DIR$/target/scala-3.2.0/classes/game_action/pre_movement_validation/DefaultPreMovementValidator.tasty" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,11 +106,11 @@
       <recent name="game_data.piece" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="game_interruption.movement_validation" />
       <recent name="game_interruption.pre_movement_validation" />
       <recent name="factory.board.board_piece_map" />
       <recent name="game_integration" />
       <recent name="game_action.post_movement_validation" />
-      <recent name="game_action.movement_validation.piece" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -153,11 +170,6 @@
           <url>file://$PROJECT_DIR$/src/main/scala/game_action/movement_validation/generic/OrOrCompositeValidator.scala</url>
           <line>10</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/game_engine/MyGameEngine.scala</url>
-          <line>28</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

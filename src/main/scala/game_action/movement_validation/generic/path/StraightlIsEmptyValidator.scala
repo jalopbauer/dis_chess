@@ -7,7 +7,7 @@ package game_action.movement_validation.generic.path:
   import game_data.board.Coordinate
   import game_data.movement.Movement
   import game_interruption.GameInterruption
-  import game_interruption.movement_validation.MoveIsInvalid
+  import game_interruption.movement_validation.{MoveIsInvalid, PathIsNotEmpty}
 
   case class StraightlIsEmptyValidator() extends MovementValidator:
     val toPositionIsEmptyValidator: ToPositionIsEmptyValidator = ToPositionIsEmptyValidator()
@@ -22,5 +22,5 @@ package game_action.movement_validation.generic.path:
           val maxValsAndFunctio = if (to.x == 0) (vector.y,(i: Int) => Coordinate(to.x, to.y + i))
           else (vector.x, (i: Int) => Coordinate(to.x + i, to.y))
           if ((1 to maxValsAndFunctio._1).forall(i => toPositionIsEmptyValidator.act(GameData(gameData.board, Movement(from, maxValsAndFunctio._2(i), movement.player), gameData.turns)).isRight)) Left(gameData)
-          else Right(MoveIsInvalid(gameData))
+          else Right(PathIsNotEmpty(gameData))
         case Right(moveIsInvalid) => Right(moveIsInvalid)
