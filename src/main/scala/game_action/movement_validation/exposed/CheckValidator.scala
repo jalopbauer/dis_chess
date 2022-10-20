@@ -19,7 +19,6 @@ import scala.util.Right
       val pieces = gameData.board.getPieces
       val yourKing = pieces.filter(x => x._2.color == player.color && x._2.pieceType == PieceType.KING).keys
       val enemyPieces = pieces.filter(x => x._2.color != player.color)
-      println(enemyPieces)
       val pieceCanAttackMap = enemyPieces.dropWhile(x => regularBoardMovementValidator.act(GameData(gameData.board,Movement(x._1, yourKing.head, Player(x._2.color)), gameData.turns)).isRight)
       if (pieceCanAttackMap.nonEmpty)
         val value = pieceCanAttackMap.head

@@ -5,5 +5,5 @@ package game_interruption.pre_movement_validation:
   
     case class NoPieceInFromCoordinate(gameData: GameData) extends GameInterruption(gameData: GameData):
       def getMessage:String =
-        s"No piece in from coordinate: ${gameData.movement.to}"
+        s"No piece in from coordinate: ${gameData.movement.from}"
 

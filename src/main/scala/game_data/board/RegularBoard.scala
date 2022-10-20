@@ -10,7 +10,6 @@ package game_data.board:
       val maybeToPiece = pieces(movement.to)
       val value = pieces(movement.from)
       val value1 = pieces - movement.to - movement.from + (movement.to -> value) + (movement.from -> None)
-      println(value1)
       (RegularBoard(value1),maybeToPiece)
 
     private def coordinateInRange(coordinate: Coordinate) : Boolean =
