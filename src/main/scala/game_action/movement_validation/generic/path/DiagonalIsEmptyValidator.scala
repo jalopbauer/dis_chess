@@ -15,7 +15,6 @@ package game_action.movement_validation.generic.path:
     def act(gameData: GameData): Either[GameData, GameInterruption] =
       movementIsDiagonal.act(gameData) match
         case Left(gameData) =>
-          println("Toy aaca")
           val movement = gameData.movement
           val from = movement.from
           val to = movement.to
@@ -29,10 +28,8 @@ package game_action.movement_validation.generic.path:
                     , from.y + (vector.y / vector.y.abs) * i)
                   , movement.player)
                 , gameData.turns))
-            println(dataOrInterruption)
             dataOrInterruption.isLeft
           }))
-            println("Ca")
             Left(gameData)
           else Right(PathIsNotEmpty(gameData))
         case Right(moveIsInvalid) => Right(moveIsInvalid)
