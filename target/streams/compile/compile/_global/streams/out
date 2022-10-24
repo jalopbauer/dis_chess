@@ -1,7 +1,8 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game_action/movement_validation/generic/path/StraightlIsEmptyValidator.scala:23:59 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m23 |[0m                                    [33melse[0m Coordinate(to.x + i, to.y)[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                           ^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                                           Not found: i[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E007] Type Mismatch Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game_action/movement_validation/generic/path/DiagonalIsEmptyValidator.scala:32:36 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m32 |[0m            [33melse[0m Left(PathIsNotEmpty(gameData))[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                      ^^^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          Found:    game_interruption.movement_validation.PathIsNotEmpty[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m          Required: game_data.GameData[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

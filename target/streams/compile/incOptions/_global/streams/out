@@ -1,18 +1,35 @@
 [0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /home/indigo/proyects/dis_chess/code/target/scala-3.2.0/classes.bak[0m
 [0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Game.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Game.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Game.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Game.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator$.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0mRolling back changes to class files.[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving generated classes:[0m
 [0m[[0m[0mdebug[0m] [0m[0mRestoring class files: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator.tasty[0m
 [0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	StraightlIsEmptyValidator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Game.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DiagonalIsEmptyValidator$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Game.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /home/indigo/proyects/dis_chess/code/target/scala-3.2.0/classes.bak[0m

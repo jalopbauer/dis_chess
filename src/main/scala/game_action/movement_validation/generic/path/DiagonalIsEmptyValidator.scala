@@ -15,11 +15,24 @@ package game_action.movement_validation.generic.path:
     def act(gameData: GameData): Either[GameData, GameInterruption] =
       movementIsDiagonal.act(gameData) match
         case Left(gameData) =>
+          println("Toy aaca")
           val movement = gameData.movement
           val from = movement.from
           val to = movement.to
           val vector = to.vector(from)
           if( vector.x == 1) Left(gameData)
-          else if (!(1 to vector.x).forall(i => toPositionIsEmptyValidator.act(GameData(gameData.board, Movement(from, Coordinate(to.x + i, to.y + i), movement.player), gameData.turns)).isLeft)) Left(gameData)
+          else if ((1 until vector.x.abs).forall(i => {
+            val dataOrInterruption = toPositionIsEmptyValidator.act(
+              GameData(gameData.board,
+                Movement(from,
+                  Coordinate(from.x + (vector.x / vector.x.abs) * i
+                    , from.y + (vector.y / vector.y.abs) * i)
+                  , movement.player)
+                , gameData.turns))
+            println(dataOrInterruption)
+            dataOrInterruption.isLeft
+          }))
+            println("Ca")
+            Left(gameData)
           else Right(PathIsNotEmpty(gameData))
         case Right(moveIsInvalid) => Right(moveIsInvalid)
