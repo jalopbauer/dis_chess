@@ -27,7 +27,7 @@ package game:
                   , movement
                   , postMovementValidatorGameData.turns
                     .appended(Turn(tuple._2, movement)))
-                postMovementValidator.act(newGameData) match
+                postMovementInvalidator.act(newGameData) match
                   case Right(x) => Right(x)
                   case Left(value) => Left(value)
     }
