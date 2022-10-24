@@ -29,10 +29,8 @@ package game_engine:
       val dataOrInterruption = game.play(gameData)
       dataOrInterruption match
         case Left(gameData) =>
-          val tuple = gameData.board.makeMovement(gameData.movement)
-          board = tuple._1
-          val turn = Turn(tuple._2, movement)
-          turn +: turns
+          board = gameData.board
+          turns = gameData.turns
           currentPlayerColor = if (currentPlayerColor == PieceColor.WHITE) PieceColor.BLACK else PieceColor.WHITE
           new NewGameState(miPiecesToChessPiece.transform(board.getPieces), myPieceColorToPlayerColor.transform(currentPlayerColor))
         case Right(error) => gameInterruptionToMoveResult.transform(error)
