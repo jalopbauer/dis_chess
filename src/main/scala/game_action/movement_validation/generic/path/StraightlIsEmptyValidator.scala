@@ -19,9 +19,18 @@ package game_action.movement_validation.generic.path:
           val to = movement.to
           val from = movement.from
           val vector = movement.vector()
-          val maxValsAndFunctio = if (to.x == 0) (vector.y,(i: Int) => Coordinate(to.x, to.y + i))
-                                  else (vector.x, (i: Int) => Coordinate(to.x + i, to.y))
-          if (maxValsAndFunctio._1 == 0) Left(gameData)
-          else if (!(1 to maxValsAndFunctio._1).forall(i => toPositionIsEmptyValidator.act(GameData(gameData.board, Movement(from, maxValsAndFunctio._2(i), movement.player), gameData.turns)).isLeft)) Left(gameData)
-          else Right(PathIsNotEmpty(gameData))
+          val coordinateFunction =  if (vector.x == 0) (i: Int) => Coordinate(from.x, from.y + i)
+                                    else (i: Int) => Coordinate(from.x  + i, from.y)
+//          Tells if it is positive or negative
+          val vectorSum = vector.x + vector.y
+          val fromToRange =
+            if (vectorSum>0) (1 until vectorSum).toList
+            else (1 until vectorSum.abs).map(-_).toList
+          if (vector.x == 1 || vector.y == 1) Left(gameData)
+          else if (fromToRange.forall(i => {
+            val coordinate = coordinateFunction(i)
+            val dataOrInterruption = toPositionIsEmptyValidator.act(GameData(gameData.board, Movement(from, coordinate, movement.player), gameData.turns))
+              dataOrInterruption.isLeft
+            })) Left(gameData)
+            else Right(PathIsNotEmpty(gameData))
         case Right(moveIsInvalid) => Right(moveIsInvalid)
