@@ -2,6 +2,7 @@ package game_action.movement_validation.exposed
 
 import game_action.movement_validation.MovementValidator
 import game_action.movement_validation.piece.*
+import game_action.post_movement_invalidation.PostMovementInvalidator
 import game_data.GameData
 import game_data.board.Coordinate
 import game_data.movement.Movement
@@ -11,7 +12,7 @@ import player.Player
 
 import scala.util.Right
 
-  case class CheckValidator() extends MovementValidator():
+  case class CheckValidator() extends PostMovementInvalidator():
     val regularBoardMovementValidator: RegularBoardPiecesMovementValidator = RegularBoardPiecesMovementValidator()
     def act(gameData: GameData): Either[GameData, GameInterruption] =
       val movement = gameData.movement
