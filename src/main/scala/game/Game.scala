@@ -16,7 +16,6 @@ package game:
           dataOrInterruption match
           case Right(x) => Right(x)
           case Left(value) =>
-            println(value.board)
             postMovementValidator.act(GameData(value.board,value.movement,value.turns))
     }
 
