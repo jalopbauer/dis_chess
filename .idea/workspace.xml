@@ -86,11 +86,11 @@
       <recent name="game_data.piece" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="game_action.movement_validation.piece" />
       <recent name="game_action.game_end_validation" />
       <recent name="game_action.post_movement_invalidation" />
       <recent name="game_action.post_movement_validation" />
       <recent name="game_action.movement_validation.exposed" />
-      <recent name="game_interruption.movement_validation" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main">
