@@ -2,7 +2,7 @@ package game_integration:
 
   import edu.austral.dissis.chess.gui.{GameOver, InvalidMove, MoveResult}
   import game_interruption.GameInterruption
-  import game_interruption.post_movement_validation.GameEnd
+  import game_interruption.game_end_validation.GameEnd
 
   case class GameInterruptionToMoveResult():
     val myPieceColorToPlayerColor: MyPieceColorToPlayerColor = MyPieceColorToPlayerColor()

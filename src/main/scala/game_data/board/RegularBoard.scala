@@ -15,7 +15,7 @@ package game_data.board:
     private def coordinateInRange(coordinate: Coordinate) : Boolean =
       inRange(coordinate.x) && inRange(coordinate.y)
     private def inRange(int: Int) : Boolean =
-      int > 0 || int < 9
+      int > 0 && int < 9
 
     def coordinateBelongs(playerMovement: Coordinate): Option[Coordinate] =
       if(!coordinateInRange(playerMovement)) None

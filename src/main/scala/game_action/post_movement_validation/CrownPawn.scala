@@ -3,7 +3,7 @@ package game_action.post_movement_validation
 import game_data.GameData
 import game_data.piece.{Piece, PieceType}
 import game_interruption.GameInterruption
-import game_interruption.post_movement_validation.KingWasEaten
+import game_interruption.game_end_validation.KingWasEaten
 
   case class CrownPawn() extends PostMovementValidator:
     def act(gameData: GameData): Either[GameData, GameInterruption] = {

@@ -1,7 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game_action/game_end_validation/CheckMateValidation.scala:11:60 [0m[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m11 |[0m      gameData.board.getPieces.values.filter(_.pieceType != )[0m
-[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                            ^[0m[0m
-[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                       expression expected but [31m')'[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /home/indigo/proyects/dis_chess/code/src/main/scala/game/RegularGame.scala:10:105 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m10 |[0m    DefaultPreMovementValidator(), RegularBoardPiecesMovementValidator(), CrownPawn(), CheckValidator(), KingWasEatenValidation()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m                                                                                                         ^^^^^^^^^^^^^^^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m                                       Not found: KingWasEatenValidation[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m[0m
 [0m[[0m[31merror[0m] [0m[0m[31m   |[0m longer explanation available when compiling with `-explain`[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
