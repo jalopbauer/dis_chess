@@ -1,6 +1,6 @@
-package dis_chess.movementValidation
+package dis_chess.movement.validation
 
-import dis_chess.gameState.GameState
+import dis_chess.game.state.GameState
 import dis_chess.movement.Movement
 import dis_chess.position.Position
 
