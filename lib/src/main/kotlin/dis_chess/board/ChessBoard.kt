@@ -21,20 +21,19 @@ interface ChessBoard<T : Position> {
                         else -> {
                             val (postFromRemoveChessBoard) = fromRemoveResponse
                             when (val toGetResponse = postFromRemoveChessBoard.get(to)) {
-                                is ErrorResponse<*> -> toGetResponse
+                                !is GetNotErrorResponse<T>-> toGetResponse
                                 else -> {
+                                    val toChessPieceOptional = when (toGetResponse) {
+                                        is ChessPieceInPosition -> toGetResponse.chessPiece
+                                        is EmptyPosition -> null
+                                    }
                                     when (val toRemoveResponse = postFromRemoveChessBoard.remove(to)) {
                                         !is ModifiedChessBoard<T> -> toRemoveResponse
                                         else -> {
-                                            when (toGetResponse) {
-                                                is ChessPieceInPosition -> toGetResponse.chessPiece
-                                                is EmptyPosition -> null
-                                            }.let { toChessPieceOptional ->
-                                                val (postToRemoveChessBoard) = toRemoveResponse
-                                                when (val putResponse: PutResponse<T> = postToRemoveChessBoard.put(to, fromChessPiece)) {
-                                                    !is ModifiedChessBoard<T> -> putResponse
-                                                    else -> ValidMoveResponse(toChessPieceOptional, putResponse.chessBoard)
-                                                }
+                                            val (postToRemoveChessBoard) = toRemoveResponse
+                                            when (val putResponse: PutResponse<T> = postToRemoveChessBoard.put(to, fromChessPiece)) {
+                                                !is ModifiedChessBoard<T> -> putResponse
+                                                else -> ValidMoveResponse(toChessPieceOptional, putResponse.chessBoard)
                                             }
                                         }
                                     }
