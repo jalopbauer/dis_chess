@@ -5,5 +5,5 @@ import dis_chess.position.RowColumnPosition
 
 data class SquareChessBoard(
     val boardSize: Int,
-    val positionChessPiece: Map<RowColumnPosition, ChessPiece>
+    val positionChessPieceType: Map<RowColumnPosition, ChessPiece>
 ) : ChessBoard<RowColumnPosition>
