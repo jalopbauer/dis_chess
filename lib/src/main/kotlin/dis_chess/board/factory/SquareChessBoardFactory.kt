@@ -2,16 +2,15 @@ package dis_chess.board.factory
 
 import dis_chess.board.SquareChessBoard
 import dis_chess.chessPiece.ChessPiece
-import dis_chess.chessPiece.type.ChessPieceType
 import dis_chess.chessPiece.mapper.StringToChessPieceMapper
 import dis_chess.position.RowColumnPosition
 import java.io.File
 
-object RegularChessBoardFactory {
-    fun build() : SquareChessBoard {
+object SquareChessBoardFactory : BoardFactory<RowColumnPosition> {
+    override fun build() : SquareChessBoard {
         val boardSize = 8
         val initial = Pair(RowColumnPosition(boardSize, 1), mapOf<RowColumnPosition, ChessPiece>())
-        val positionChessPiece = File("initial_regular_chess_board")
+        val positionChessPiece = File("src/main/resources/initial_regular_chess_board")
             .readLines()
             .fold(initial) { currentPositionPositionChessPieceMap, fileRow ->
                 fileRow.split("|")
@@ -23,7 +22,7 @@ object RegularChessBoardFactory {
                             }
                         val nextPosition = currentPosition.copy(column = currentPosition.column + 1)
                         Pair(nextPosition, newChessPieceMap)
-                    }.let { it.copy(first = it.first.copy(row = it.first.row + 1)) }
+                    }.let { it.copy(first = it.first.copy(row = it.first.row - 1, column = 1)) }
             }
         return SquareChessBoard(8,  positionChessPiece.second)
     }
