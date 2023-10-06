@@ -5,9 +5,10 @@ import dis_chess.chessPiece.colour.BlackChessPiece
 import dis_chess.chessPiece.colour.ChessPieceColour
 import dis_chess.chessPiece.colour.WhiteChessPiece
 import dis_chess.chessPiece.type.*
+import dis_chess.chessPiece.type.factory.RegularBoardFirstAndLastRowChessPieceTypeFactory
+import dis_chess.chessPiece.type.factory.RegularBoardPawnFactory
 import dis_chess.position.RowColumnPosition
 import junit.framework.TestCase.assertEquals
-import junit.framework.TestCase.assertTrue
 import org.junit.Test
 
 class SquareChessBoardFactoryTest {
@@ -19,24 +20,10 @@ class SquareChessBoardFactoryTest {
         assertEquals(chessPieces, positionChessPieceType)
     }
 
-    private fun chessPieces() = fillChessPieceMap(chessPiecesType(), BlackChessPiece, 8) +
-            fillChessPieceMap(chessPiecesType(), WhiteChessPiece, 1) +
-            fillChessPieceMap(pawns(), BlackChessPiece, 7) +
-            fillChessPieceMap(pawns(), WhiteChessPiece, 2)
-
-    private fun pawns() =
-        (1 until 9).map { Pawn }
-
-    private fun chessPiecesType() = listOf(
-        Rook,
-        Knight,
-        Bishop,
-        Queen,
-        King,
-        Bishop,
-        Knight,
-        Rook
-    )
+    private fun chessPieces() = fillChessPieceMap(RegularBoardFirstAndLastRowChessPieceTypeFactory.build(), BlackChessPiece, 8) +
+            fillChessPieceMap(RegularBoardFirstAndLastRowChessPieceTypeFactory.build(), WhiteChessPiece, 1) +
+            fillChessPieceMap(RegularBoardPawnFactory.build(), BlackChessPiece, 7) +
+            fillChessPieceMap(RegularBoardPawnFactory.build(), WhiteChessPiece, 2)
 
     private fun fillChessPieceMap(
         chessPieceTypeList: List<ChessPieceType>,
