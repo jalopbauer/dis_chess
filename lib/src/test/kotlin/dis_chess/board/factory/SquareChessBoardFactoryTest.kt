@@ -16,15 +16,7 @@ class SquareChessBoardFactoryTest {
     fun build() {
         val positionChessPieceType = SquareChessBoardFactory.build().positionChessPieceType
         val chessPieces = chessPieces()
-        chessPieces.forEach {
-            if(it.value != positionChessPieceType[it.key]) {
-//                println(it.key)
-//                println(it.value)
-//                println(positionChessPieceType[it.key])
-//                println()
-            }
-        }
-        assertTrue(false)
+        assertEquals(chessPieces, positionChessPieceType)
     }
 
     private fun chessPieces() = fillChessPieceMap(chessPiecesType(), BlackChessPiece, 8) +
